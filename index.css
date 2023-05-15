@@ -7,11 +7,15 @@ html, body {
     background: #f2f1f0;
 }
 
-header {
+header,
+.post {
     background: white;
+    border-radius: 10px;
+}
+
+header {
     height: 70px;
     border-bottom: 1px solid #C6C6C6;
-    border-radius: 10px;
 }
 
 .container {
@@ -21,8 +25,6 @@ header {
 
 .post {
     margin-bottom: 8px;
-    background: white;
-    border-radius: 10px;
 }
 
 #user-avatar,
